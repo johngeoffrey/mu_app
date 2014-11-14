@@ -1,0 +1,22 @@
+{
+  "name": "Unofficial Music Unlimited app for Chrome",
+  "description": "All the music you want, when you want it. Music Unlimited offers access to millions of songs on PC and a variety of Sony devices.",
+  "version": "1",
+  "manifest_version":2,
+  "author":"Geoff Newman",
+  "offline_enabled":false,
+  "short_name":"Music Unlimited",
+  "app": {
+    "urls": [
+      "*://music.sonyentertainmentnetwork.com/"
+    ],
+    "launch": {
+      "web_url": "https://music.sonyentertainmentnetwork.com/"
+    }
+  },
+  "icons": {
+    "128": "sen_128.png"
+  },
+  "permissions": [
+  ]
+}
